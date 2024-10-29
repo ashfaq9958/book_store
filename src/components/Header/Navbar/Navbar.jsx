@@ -8,11 +8,11 @@ const Navbar = () => {
 
   const links = [
     { title: "BookList", link: "/" },
-    // { title: "Book List", link: "/books-list" },
+  
     { title: "Add Book", link: "/add-books" },
     { title: "Edit Book", link: "/edit-book" },
     { title: "Blogs", link: "/blogs" },
-    // { title: "Videos", link: "/videos" },
+  
     { title: "Contact us", link: "/contactus" },
   ];
 

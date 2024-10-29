@@ -17,8 +17,6 @@ const SearchBar = () => {
         <div className="w-28 sm:w-24 cursor-pointer object-contain" onClick={() => navigate("/")}>
           <img src={logo} alt="Company Logo" className="w-full" />
         </div>
-
-      
         <div className="flex flex-col sm:flex-row w-full md:w-auto h-auto sm:h-10 gap-2 sm:gap-0">
           <div className="relative w-full sm:w-96">
             <TextField
@@ -40,17 +38,14 @@ const SearchBar = () => {
             </div>
           </div>
         </div>
-
-        {/* Cart & User Info */}
-        <div className="flex gap-8  items-center">
-          {/* <img src={cartlogo} alt="Cart" className="w-6 sm:w-6" /> */}
+        <div className="flex gap-8 items-center">
           <div className="flex gap-2 sm:gap-3 items-center">
             <img
               src={usericon}
               alt="User"
               className="w-6 sm:w-6 md:w-20 lg:w-6"
             />
-            <p className="text-[#301F4A] font-medium sm:hidden lg:block md:text-[12.67px]">
+            <p className="text-[#301F4A] font-medium sm:hidden lg:block md:text-[12.67px] !capitalize">
               SIGN IN / SIGN UP
             </p>
           </div>
