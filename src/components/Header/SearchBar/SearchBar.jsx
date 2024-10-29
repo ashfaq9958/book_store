@@ -14,11 +14,11 @@ const SearchBar = () => {
     <div className="sm:mt-5 mt-3">
       <div className="w-full md:w-[85%] xl:w-[70%] mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 sm:p-0 p-2">
         {/* Logo */}
-        <div className="w-28 md:w-30 cursor-pointer" onClick={() => navigate("/")}>
+        <div className="w-28 sm:w-24 cursor-pointer object-contain" onClick={() => navigate("/")}>
           <img src={logo} alt="Company Logo" className="w-full" />
         </div>
 
-        {/* Search & Location */}
+      
         <div className="flex flex-col sm:flex-row w-full md:w-auto h-auto sm:h-10 gap-2 sm:gap-0">
           <div className="relative w-full sm:w-96">
             <TextField
